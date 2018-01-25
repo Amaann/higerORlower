@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FF5722">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="I'm thinking of number between 1 to 20"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Can you guess it?"
+        android:textSize="35sp"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:id="@+id/idEtEnterNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter a number."
+        android:layout_marginTop="10dp"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/idBtGuess"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#ffffff"
+
+        android:elevation="0dp"
+        android:text="guess" />
+
+
+</LinearLayout>
+
